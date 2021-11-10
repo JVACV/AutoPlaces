@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text"
+        android:hint="Enter Address"
+        android:padding="16dp"
+        android:drawablePadding="16dp"
+        android:drawableLeft="@drawable/ic_location"
+        android:gravity="center_vertical"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view1"
+        android:textColor="@color/purple_700"
+        android:fontFamily="monospace"
+        android:padding="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view2"
+        android:textColor="@color/purple_700"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:padding="12dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view3"
+        android:textColor="@color/purple_700"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:padding="12dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view4"
+        android:textColor="@color/purple_700"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:padding="12dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_700"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:padding="12dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <Spinner
+            android:layout_marginLeft="15dp"
+            android:layout_width="200dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="40dp"
+            android:id="@+id/sp_type"
+            android:background="@android:drawable/editbox_background"
+            />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GetPlaces"
+            android:onClick="getPlaces"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lview1"
+        />
+
+</LinearLayout>

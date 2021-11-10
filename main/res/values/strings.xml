@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AutoPlaces</string>
+    <string-array name="types">
+        <item>atm</item>
+        <item>school</item>
+        <item>hospital</item>
+        <item>bakery</item>
+        <item>food</item>
+        <item>bank</item>
+        <item>church</item>
+    </string-array>
+    <string name="google_map_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBtGvgZeAiR4vay_NM7j9LD3vmCHfC3Uvk</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
